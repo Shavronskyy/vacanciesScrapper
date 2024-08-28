@@ -26,3 +26,5 @@ vacanciesSoup = BeautifulSoup(page.content, "html.parser")
 
 getVacancies = vacanciesSoup.find_all("a", {"class":"vt"})
 getLinks = ""
+
+print("hello")
